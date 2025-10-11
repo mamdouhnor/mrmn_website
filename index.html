@@ -1,72 +1,41 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>MRMNSALT - Under Construction</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MRMNSalt — Under Construction</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f2f2f2;
-      color: #333;
-      text-align: center;
-      padding: 50px 20px;
-    }
-
-    .container {
-      max-width: 600px;
-      margin: 0 auto;
-      background-color: #fff;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    }
-
-    h1 {
-      color: #cc0000;
-      font-size: 2.5em;
-      margin-bottom: 10px;
-    }
-
-    h2 {
-      color: #555;
-      font-size: 1.5em;
-      margin-bottom: 20px;
-    }
-
-    .contact-info {
-      text-align: left;
-      margin-top: 30px;
-      font-size: 1em;
-    }
-
-    .contact-info p {
-      margin: 8px 0;
-    }
-
-    a {
-      color: #0066cc;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
+    :root{--bg:#ffffff;--fg:#222;--muted:#666}
+    html,body{height:100%;margin:0;font-family:Inter, 'Helvetica Neue', Arial, sans-serif;background:var(--bg);color:var(--fg)}
+    .wrap{min-height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:48px 24px;box-sizing:border-box}
+    .logo{max-width:380px;width:60%;height:auto;margin:18px 0}
+    h1{font-size:48px;letter-spacing:2px;margin:10px 0 6px;text-align:center}
+    .subtitle{font-size:20px;margin:0 0 28px;text-align:center;color:var(--muted);font-weight:600}
+    .info{max-width:520px;text-align:center;margin-top:12px}
+    .info p{margin:10px 0;font-size:18px}
+    a.contact{color:var(--fg);text-decoration:none;font-weight:600}
+    .footer-note{margin-top:26px;color:var(--muted);font-size:13px}
+    @media (max-width:520px){h1{font-size:34px} .logo{width:80%} .info p{font-size:16px}}
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>MRMNSALT</h1>
-    <h1> Premium Quality Salt Solutions </h1>
-    <h2>🚧 Under Construction 🚧</h2>
-    <p>We're working hard to bring something amazing. Stay tuned!</p>
+  <div class="wrap" role="main">
+    <h1>Premium Quality Salt Solutions
+    Your trusted partner in salt brokerage, providing high-quality salt products for various industries.</h1>
+    <h3>UNDER CONSTRUCTION</h3>
+    <div class="subtitle">MRMNSALT</div>
 
-    <div class="contact-info">
-      <p><strong>Contact Person:</strong> Mohamed Hafez</p>
-      <p><strong>Email:</strong> <a href="mailto:info@mrmnsalt.com">info@mrmnsalt.com</a></p>
-      <p><strong>Mobile:</strong> <a href="tel:+19165077566">+1 (916) 507-7566</a></p>
-      <p><strong>Address:</strong> 3953 La Honda Way, Carmichael, CA 95608</p>
+    <!-- Logo: place the provided logo file next to this HTML file and name it `new_logo.PNG` -->
+    <img src="new_logo.PNG" alt="MRMN Salt logo" class="logo"/>
+
+    <div class="info" aria-label="contact information">
+      <p><a class="contact" href="mailto:info@mrmnsalt.com">info@mrmnsalt.com</a></p>
+      <p><a class="contact" href="tel:+19165077566">+1 (916) 507-7566</a></p>
+      <p>Mohamed Hafez</p>
+      <p>3953 la Honda way<br/>Carmichael, CA 95608</p>
     </div>
+
+    <div class="footer-note">We'll be back soon. For urgent inquiries please email or call the number above.</div>
   </div>
 </body>
 </html>
